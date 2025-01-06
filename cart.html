@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+
+</head>
+<body class="showCart">
+
+
+    <div class="container">
+       
+        <header>
+            <a href="index.html" class="go-back">Go Back</a>
+            <div class="title">MENU</div>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span>0</span>
+            </div>
+        </header>
+        <div class="listProduct">
+            
+                <!-- <h2>Our Menu</h2><br>
+                <h3><b>MENU OF THE WEEK</b></h3><br><br><br> -->
+                <div class="menu-items">
+                  <!-- <div class="item" onclick="viewItem('Bombay-Potatoes', 'images/bombay-potatoes-1024x1536.jpg', 20)"> -->
+                    <div class="item">
+                    <img src="images/bombay-potatoes-1024x1536.jpg" alt="Dish 1">
+                    <h3>Bombay-Potatoes</h3>
+                    <p>$20</p>
+                    <button class="addcart">Add To Cart</button>
+                  </div>
+
+
+                  <!-- <div class="item" onclick="viewItem('paneer-curry-dhaba-style', 'images/paneer-curry-dhaba-style-1024x1536.jpg', 15)"> 
+                    <div class="item">
+                    <img src="images/paneer-curry-dhaba-style-1024x1536.jpg" alt="Dish 2">
+                    <h3>Paneer-Curry-dhaba-style</h3>
+                    <p>$15</p>
+                    <button class="addcart">Add To Cart</button>
+                  </div>
+                  -->
+
+
+                  <!-- <div class="item" onclick="viewItem('vegetable-curry', 'images/vegetable-curry-1024x1536.jpg', 15)"> 
+                    <div class="item">
+                    <img src="images/vegetable-curry-1024x1536.jpg" alt="Dish 3">
+                    <h3>Vegetable-Curry</h3>
+                    <p>$10</p>
+                    <button class="addcart">Add To Cart</button>
+                    </div>
+                    -->
+            
+                    <!-- <div class="item" onclick="viewItem('meals', 'images/meals.jpg', 15)"> 
+                        <div class="item">
+                      <img src="images/meals.jpg" alt="Dish 4">
+                      <h3>Meals</h3>
+                      <p>$12</p>
+                      <button class="addcart">Add To Cart</button>
+                      </div>
+                        -->
+
+
+                      <!-- <div class="item" onclick="viewItem('Chicken-Vindaloo', 'images/Chicken-Vindaloo.jpg', 15)"> 
+                        <div class="item">
+                        <img src="images/Chicken-Vindaloo.jpg" alt="Dish 5">
+                        <h3>Chicken-Vindaloo</h3>
+                        <p>$15</p>
+                        <button class="addcart">Add To Cart</button>
+                        </div>
+                        -->
+
+                        <!-- <div class="item" onclick="viewItem('chicken-biryani', 'images/chicken-biryani.jpg', 15)"> 
+                            <div class="item">
+                          <img src="images/chicken-biryani.jpg" alt="Dish 6">
+                          <h3>Chicken-biryani</h3>
+                          <p>$11</p>
+                          <button class="addcart">Add To Cart</button>
+                          </div>
+                        -->
+                  </div>
+                </div>
+              
+        </div>
+    </div>
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+           <div class="item">
+            <div class="image">
+                <img src="images/bombay-potatoes-1024x1536.jpg" alt="">
+            </div>
+            <div class="name">
+                NAME
+            </div>
+            <div class="TotalPrice">
+                $
+            </div>
+            <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+            </div>
+           </div>
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">Check Out</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+    <script src="cart.js"></script>
+</body>
+</html>

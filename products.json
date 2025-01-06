@@ -1,0 +1,43 @@
+[
+
+
+  {
+    "id": 2,
+    "name": "Paneer-Curry",
+    "price": 15,
+    "image":"images/paneer-curry-dhaba-style-1024x1536.jpg"
+
+  },
+
+  {
+    "id": 3,
+    "name": "Vegetable-Curry",
+    "price": 10,
+    "image":"images/vegetable-curry-1024x1536.jpg"
+
+  },
+
+  {
+    "id": 4,
+    "name": "Meals",
+    "price": 12,
+    "image":"images/meals.jpg"
+
+  },
+
+  {
+    "id": 5,
+    "name": "Chicken-Vindaloo",
+    "price": 15,
+    "image":"images/Chicken-Vindaloo.jpg"
+
+  },
+
+  {
+    "id": 6,
+    "name": "Chicken-Biryani",
+    "price": 11,
+    "image":"images/chicken-biryani.jpg"
+
+  }
+]

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <link rel="stylesheet" href="index.css">
+  
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo"><img src="images\logo.png" alt="Restaurant Logo" class="logo"></div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#about">About Us</a>
+        <a href="cart.html">Menu</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+</div>
+
+<!--========== HOME ==========-->
+<section class="home" id="home">
+  <div class="home__container">
+    <div class="home__data">
+      <h1 class="home__title">Tasty Foods</h1>
+          <h2 class="home__subtitle"><br>Try the best food of <br> the week.</h2>
+                      <a href="cart.html" class="button">View Menu</a>
+                  </div>
+  
+                  <img src="images/home.png" alt="" class="home__img">
+              </div>
+          </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Welcome to Food & Drinks, where culinary excellence meets warm hospitality. Our story is one of passion, dedication, and a commitment to delivering an exceptional dining experience to our cherished guests.<br><br><br></p>
+    
+    <img src="images/about.jpg" alt="Our Restaurant" class="about__img">
+    <p><h3 >Our Journey</h3>
+      <br>
+      At Food & Drinks, our journey began with a simple yet profound vision to create a haven for food enthusiasts, a place where flavors come alive, and memories are made. Established in [Year of Establishment], we embarked on this culinary adventure with the aim of offering a unique blend of delectable cuisine, inviting ambiance, and impeccable service.
+      Our restaurant serves delicious and fresh food made with love. We are committed to providing the best dining experience.<br></p>
+  </section>
+
+  <hr>
+<!-- Contact --->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2><br><br>
+  <p>You can contact us by filling the given form.</p>
+  <br>
+  
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+
+  <footer>
+    <p>&copy; 2024 Restaurant. All rights reserved.</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
